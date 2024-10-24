@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            display: grid;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: azure;
+        }
+        #lienzo {
+            background-color: darkblue;
+        }
+        button{
+            padding: 10px 20px;
+        font-size: 16px;
+        background-color: #563be0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujo con Canvas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bolita que rebota</h1>
+        <canvas id="lienzo" width="600" height="400"></canvas>
+    </div>
+    <div>
+                    <button onclick="window.location.href='../index.html'">Menú Principal</button>
+        </div>
+    <script src="./app.js"></script>
+</body>
+</html>

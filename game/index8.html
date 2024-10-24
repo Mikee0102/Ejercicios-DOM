@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Juego!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            place-items: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: rgb(73, 73, 73);
+            color: rgba(189, 179, 179, 0.662);
+        }
+        #lienzo {
+            background-color: rgb(0, 0, 0);
+            box-shadow: 0px 0px 10px green;
+        }
+        #reiniciar {
+            display: none;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button{
+            padding: 10px 20px;
+        font-size: 16px;
+        background-color: #563be0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Convierte a los niños en fantasmas👻 </h1>
+    <canvas id="lienzo" width="600" height="400"></canvas>
+    <button id="reiniciar">Reiniciar Juego</button>
+    <div>
+        <button onclick="window.location.href='../index.html'">Menú Principal</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
